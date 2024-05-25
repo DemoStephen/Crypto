@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+body nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+body nav .logo {
+  color: #bbfc0c;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 1rem 0;
+}
+body nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+body nav ul li {
+  padding: 15px;
+  position: relative;
+}
+body nav ul li:hover .services {
+  visibility: visible;
+}
+body nav ul li:hover a {
+  color: #bbfc0c;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+body nav ul li .services {
+  position: absolute;
+  background-color: black;
+  width: 150px;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  font-weight: 500;
+  visibility: hidden;
+}
+body nav ul li .services p {
+  padding: 5px;
+  margin: 1px 0 3px 0;
+  background-color: #bbfc0c;
+}
+body nav ul li .services p:hover {
+  background-color: black;
+  color: white;
+}
+body nav ul li .services p:hover a {
+  color: white;
+}
+body nav ul li .services p a {
+  color: black;
+}
+body nav button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: 500;
+  border-radius: 15px;
+}
+body nav button:hover {
+  background-color: #bbfc0c;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 2rem 5%;
+}
+body header .header-text, body header #illustration {
+  width: 50%;
+}
+body header .header-text #money-safe p, body header #illustration #money-safe p {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+body header .header-text #money-safe h1, body header #illustration #money-safe h1 {
+  font-size: 60px;
+  margin-top: -0.5rem;
+}
+body header .header-text #money-safe h1 span, body header #illustration #money-safe h1 span {
+  font-size: 60px;
+  color: #bbfc0c;
+}
+body header .header-text .users, body header #illustration .users {
+  display: flex;
+  width: 60%;
+  gap: 20px;
+  margin-top: 2rem;
+  align-items: center;
+  align-content: center;
+}
+body header .header-text .users .user-images, body header #illustration .users .user-images {
+  display: flex;
+}
+body header .header-text .users .user-images div:nth-child(1), body header #illustration .users .user-images div:nth-child(1) {
+  background-color: yellow;
+  margin-left: 0px;
+}
+body header .header-text .users .user-images div:nth-child(2), body header #illustration .users .user-images div:nth-child(2) {
+  background-color: blue;
+}
+body header .header-text .users .user-images div:nth-child(3), body header #illustration .users .user-images div:nth-child(3) {
+  background-color: red;
+}
+body header .header-text .users .user-images div:nth-child(4), body header #illustration .users .user-images div:nth-child(4) {
+  background-color: orange;
+}
+body header .header-text .users .user-images div, body header #illustration .users .user-images div {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-left: -10px;
+}
+body header .header-text .users .user-images div img, body header #illustration .users .user-images div img {
+  width: 100%;
+}
+body header .header-text .users .total-users #k-users, body header #illustration .users .total-users #k-users {
+  font-size: 25px;
+  font-weight: 700;
+}
+body header .header-text .users .total-users p, body header #illustration .users .total-users p {
+  font-size: 14px;
+}
+body header .header-text .polkadot, body header #illustration .polkadot {
+  margin-top: 2rem;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+body header .header-text .polkadot img, body header #illustration .polkadot img {
+  width: 50px;
+}
+body header .header-text .polkadot span, body header #illustration .polkadot span {
+  font-size: 15px;
+}
+body main {
+  padding: 0 5%;
+}
+body main .trusted-partner {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 2rem 0;
+}
+body main .trusted-partner h2, body main .trusted-partner p {
+  width: 50%;
+}
+body main .trusted-partner h2 span, body main .trusted-partner p span {
+  color: #bbfc0c;
+  font-size: 50px;
+}
+body main .trusted-partner h2 {
+  font-size: 50px;
+}
+body main .one_two_three {
+  display: flex;
+  align-items: end;
+  margin: 3rem 0;
+}
+body main .one_two_three div {
+  width: 100%;
+  padding: 2rem 2rem 5rem 2rem;
+  border-radius: 10px 0 0 0;
+  background: linear-gradient(140deg, #444444 5%, #363737 25%, #161617);
+}
+body main .one_two_three div p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+body main .one_two_three div:nth-child(2) {
+  background: #bbfc0c;
+  color: black;
+  border-radius: 10px 10px 0 0;
+}
+body main .one_two_three div:nth-child(2) .polkadot {
+  font-size: 0.8rem;
+  margin: 0.5rem 0 1rem 0;
+}
+body main .one_two_three div:nth-child(2) a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+body main .one_two_three div:nth-child(3) {
+  border-radius: 0 10px 0 0;
+  background: linear-gradient(300deg, #444444 5%, #363737 25%, #161617);
+}
+body main .trusted-platform {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+body main .trusted-platform img, body main .trusted-platform .trusted-platform-text {
+  width: 45%;
+}
+body main .trusted-platform img h3, body main .trusted-platform .trusted-platform-text h3 {
+  font-size: 50px;
+}
+body main .trusted-platform img h3 span, body main .trusted-platform .trusted-platform-text h3 span {
+  font-size: 50px;
+  color: #bbfc0c;
+}
+body main .trusted-platform img .stars, body main .trusted-platform .trusted-platform-text .stars {
+  margin: 1rem 0;
+}
+body main .trusted-platform img button, body main .trusted-platform .trusted-platform-text button {
+  margin: 2rem 1rem 2rem 0;
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #bbfc0c;
+  border: none;
+  border-radius: 10px;
+}
+body main .build-your-portfolio {
+  margin: 4rem 0;
+}
+body main .build-your-portfolio h3 {
+  text-align: center;
+  font-size: 50px;
+}
+body main .build-your-portfolio h3 span {
+  color: #bbfc0c;
+  font-size: 50px;
+}
+body main .build-your-portfolio .main-portfolio-paragraph {
+  text-align: center;
+  padding: 0 25%;
+}
+body main .build-your-portfolio .build-your-portfolio-flex {
+  display: flex;
+  gap: 20px;
+  margin: 2rem 0;
+  align-items: end;
+}
+body main .build-your-portfolio .build-your-portfolio-flex div {
+  width: 100%;
+  background: linear-gradient(300deg, #444444 5%, #363737 25%, #161617);
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem;
+}
+body main .build-your-portfolio .build-your-portfolio-flex div:nth-child(2) {
+  background: #bbfc0c;
+  color: black;
+}
+body main .build-your-portfolio .build-your-portfolio-flex div:nth-child(2) img {
+  background-color: white;
+}
+body main .build-your-portfolio .build-your-portfolio-flex div img {
+  width: 70px;
+  background-color: #bbfc0c;
+  padding: 15px;
+  border-radius: 50px;
+  margin: 0 0 2rem 0;
+}
+body main .build-your-portfolio .build-your-portfolio-flex div p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0 0.5rem;
+  margin: 2rem 0 2rem 0;
+  font-weight: 600;
+}
+body main .build-your-portfolio .build-your-portfolio-flex div button {
+  padding: 10px 20px;
+  margin: 1.5rem 0;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: #bbfc0c;
+}
+body main .we-provide {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+  align-items: center;
+}
+body main .we-provide .we-provide-illustration, body main .we-provide .we-provide-text {
+  width: 50%;
+}
+body main .we-provide .we-provide-illustration h3, body main .we-provide .we-provide-text h3 {
+  font-size: 50px;
+  padding: 0 30% 0 0;
+}
+body main .we-provide .we-provide-illustration h3 span, body main .we-provide .we-provide-text h3 span {
+  color: #bbfc0c;
+  font-size: 50px;
+}
+body main .we-provide .we-provide-illustration .we-provide-paragraph, body main .we-provide .we-provide-text .we-provide-paragraph {
+  padding: 0 20% 0 0;
+  margin: 1rem 0;
+}
+body main .we-provide .we-provide-illustration .four-illustration, body main .we-provide .we-provide-text .four-illustration {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 2rem 0;
+}
+body main .we-provide .we-provide-illustration .four-illustration .four-one, body main .we-provide .we-provide-text .four-illustration .four-one {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+body main .we-provide .we-provide-illustration .four-illustration .four-one img, body main .we-provide .we-provide-text .four-illustration .four-one img {
+  width: 60px;
+  background-color: #bbfc0c;
+  padding: 10px;
+  border-radius: 50px;
+}
+body main .we-provide .we-provide-illustration .four-illustration .four-one p, body main .we-provide .we-provide-text .four-illustration .four-one p {
+  font-size: 12px;
+}
+body footer {
+  padding: 2rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+body footer .company-details p {
+  font-size: 14px;
+}
+body footer .company-details .footer-logo {
+  color: #bbfc0c;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+body footer .company-details .social {
+  display: flex;
+  gap: 10px;
+  margin: 1rem 0;
+}
+body footer .company-details .social img {
+  width: 40px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #bbfc0c;
+}
+body footer .footer-same h5 {
+  margin: 0 0 0.3rem 0;
+}
+body footer .footer-same ul {
+  list-style: none;
+}
+body footer .footer-same ul li {
+  font-size: 0.8rem;
+  padding: 5px 0;
+}
+body footer .newsletter form {
+  display: flex;
+  border: 2px solid #bbfc0c;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+body footer .newsletter form input, body footer .newsletter form button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: #bbfc0c;
+}
+body footer .newsletter form input {
+  background-color: #161617;
+  color: white;
+}
+body footer .newsletter form input::-moz-placeholder {
+  color: #444444;
+}
+body footer .newsletter form input::placeholder {
+  color: #444444;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+
+background color
+color: #0B0E13
+
+button color
+color: #BBFC0C
+
+Other Colors
+color: #222828
+color: #BDC1C0
