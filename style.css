@@ -590,9 +590,11 @@ body footer .newsletter form input::placeholder {
     margin: 1rem 0;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+    align-content: center;
+    gap: 15px;
   }
   body main .we-provide .we-provide-illustration .four-illustration .four-one img, body main .we-provide .we-provide-text .four-illustration .four-one img {
-    width: 50px;
+    width: 35px;
   }
   body main hr {
     margin: 0.5rem 0;
@@ -621,7 +623,7 @@ body footer .newsletter form input::placeholder {
     margin: 0;
   }
   body footer .newsletter form {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 1.5rem 0;
     padding: 0;
   }
   body footer .newsletter form input, body footer .newsletter form button {
@@ -819,9 +821,11 @@ body footer .newsletter form input::placeholder {
     margin: 1rem 0;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+    align-content: center;
+    gap: 15 px;
   }
   body main .we-provide .we-provide-illustration .four-illustration .four-one img, body main .we-provide .we-provide-text .four-illustration .four-one img {
-    width: 50px;
+    width: 40px;
   }
   body main hr {
     margin: 0.5rem 0;
@@ -850,7 +854,7 @@ body footer .newsletter form input::placeholder {
     margin: 0;
   }
   body footer .newsletter form {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 2rem 0;
     padding: 0;
     width: 100%;
   }
