@@ -1,14 +1,29 @@
 # CRYPTO
 
-Code With Stephen(Project 1)
+Best crypto investing platform for your future.
+Project 1
 
-## Links
+## Authors
 
-link to website
-[https://www.crypto.com/](https://demostephen.github.io/Crypto/)
-link to repository
-[https://www.crypto.com/repo](https://github.com/DemoStephen/Crypto)
+- [Facebook](https://web.facebook.com/profile.php?id=100086429091244)
+- [Instagram](https://www.instagram.com/s.t.e.p.h.e.n.n/)
+- [Twitter](https://twitter.com/stephennifemi01)
 
-### About me
+## 🚀 About Me
 
-My name is Adewale Stephen. A front-end web developer.
+I'm a front end web developer...
+
+## 🛠 Skills
+
+Javascript, HTML, CSS...
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS, SASS
+
+**Server:** Node, Express
+
+## Link
+
+- [Live View](https://demostephen.github.io/Crypto/)
+- [Repository](https://github.com/DemoStephen/Crypto)
