@@ -1,7 +1,7 @@
 # CRYPTO
 
-Best crypto investing platform for your future.
-Project 1
+Best crypto investing platform for your future(Fully Responsive).
+Project 1(Beginner)
 
 ## Authors
 
